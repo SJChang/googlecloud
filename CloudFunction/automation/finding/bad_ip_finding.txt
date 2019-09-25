@@ -1,0 +1,51 @@
+{
+ insertId:  "-9fhc83a4"
+ jsonPayload: {
+  affectedResources: [
+   0: {
+    gcpResourceName:  "//cloudresourcemanager.googleapis.com/projects/aerial-jigsaw-235219"
+   }
+  ]
+  detectionCategory: {
+   indicator:  "ip"
+   ruleName:  "bad_ip"
+   technique:  "cryptomining"
+  }
+  detectionPriority:  "HIGH"
+  eventTime:  "2019-07-16T21:00:44.760Z"
+  evidence: [
+   0: {
+    sourceLogId: {
+     insertId:  "11qjm6ng183mguh"
+     timestamp:  "2019-07-16T21:00:44.179635017Z"
+    }
+   }
+  ]
+  properties: {
+   destinationInstance:  ""
+   ip: [
+    0:  "52.8.47.33"
+   ]
+   location:  "us-central1-c"
+   project_id:  "aerial-jigsaw-235219"
+   sourceInstance:  "/projects/aerial-jigsaw-235219/zones/us-central1-c/instances/instance-2"
+   subnetwork_id:  "288355645352614400"
+   subnetwork_name:  "default"
+  }
+  sourceId: {
+   customerOrganizationNumber:  "154584661726"
+   projectNumber:  "997507777601"
+  }
+ }
+ logName:  "projects/aerial-jigsaw-235219/logs/threatdetection.googleapis.com%2Fdetection"
+ receiveTimestamp:  "2019-07-16T21:00:45.913791943Z"
+ resource: {
+  labels: {
+   detector_name:  "bad_ip"
+   project_id:  "aerial-jigsaw-235219"
+  }
+  type:  "threat_detector"
+ }
+ severity:  "CRITICAL"
+ timestamp:  "2019-07-16T21:00:44.760Z"
+}

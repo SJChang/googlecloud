@@ -1,0 +1,55 @@
+{
+ insertId:  "qnjgp6a7"
+ jsonPayload: {
+  affectedResources: [
+   0: {
+    gcpResourceName:  "//cloudresourcemanager.googleapis.com/projects/aerial-jigsaw-235219"
+   }
+  ]
+  detectionCategory: {
+   indicator:  "domain"
+   ruleName:  "bad_domain"
+   technique:  "Malware"
+  }
+  detectionPriority:  "HIGH"
+  eventTime:  "2019-07-16T16:27:49.644Z"
+  evidence: [
+   0: {
+    sourceLogId: {
+     insertId:  "102p1o0g13jhiyg"
+     timestamp:  "2019-07-16T16:27:49.228016195Z"
+    }
+   }
+  ]
+  properties: {
+   destIp:  "118.184.176.25"
+   destPort:  80
+   domain: [
+    0:  "3322.org"
+   ]
+   ip:  "118.184.176.25"
+   location:  "us-central1-c"
+   project_id:  "aerial-jigsaw-235219"
+   protocol:  6
+   srcIp:  "10.128.0.2"
+   srcPort:  40208
+   subnetwork_id:  "288355645352614400"
+   subnetwork_name:  "default"
+  }
+  sourceId: {
+   customerOrganizationNumber:  "154584661726"
+   projectNumber:  "997507777601"
+  }
+ }
+ logName:  "projects/aerial-jigsaw-235219/logs/threatdetection.googleapis.com%2Fdetection"
+ receiveTimestamp:  "2019-07-16T16:27:50.583353162Z"
+ resource: {
+  labels: {
+   detector_name:  "bad_domain"
+   project_id:  "aerial-jigsaw-235219"
+  }
+  type:  "threat_detector"
+ }
+ severity:  "CRITICAL"
+ timestamp:  "2019-07-16T16:27:49.644Z"
+}
